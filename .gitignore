@@ -1,0 +1,13 @@
+.map
+.DS_Store
+
+dist/
+bundle/
+public/
+node_modules/
+coverage/
+
+yarn.lock
+yarn-error.log
+package-lock.json
+
