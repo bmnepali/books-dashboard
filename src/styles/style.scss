@@ -1,0 +1,19 @@
+// Custom Variables
+@import 'variables';
+
+// Import Bootstrap styles
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+// Base
+// ---------------------------------------------------------//
+@import 'base/base';
+@import 'base/typography';
+
+// Components
+// ---------------------------------------------------------//
+@import 'components/navbar';
+@import 'components/buttons';
+@import 'components/sidebar';
+@import 'components/main-content';
+@import 'components/card';
+@import 'components/spinner';

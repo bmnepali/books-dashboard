@@ -1,0 +1,18 @@
+* {
+	outline: none;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	background: $light-gray;
+	color: $gray;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+}

@@ -1,0 +1,43 @@
+.btn {
+    padding: .375rem 1.5rem;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.btn-rounded {
+    border-radius: 25px;
+}
+
+.btn-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03);
+
+    &:focus,
+    &:active,
+    &:hover {
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+    }
+}
+
+.btn-link {
+    background: $white;
+
+    &:focus,
+    &:active,
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.dropdown-toggle.btn {
+    height: 45px;
+}
+
+.dropdown-menu {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03);
+    border: 0;
+    border-radius: 10px;
+}
+
+.dropdown-toggle::after {
+    vertical-align: 0.15em;
+}
