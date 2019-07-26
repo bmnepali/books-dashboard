@@ -1,5 +1,4 @@
 # Books Dashboard
-(#####books-dashboard)
 
 A project created with love using React, Redux, SCSS, Bootstrap 4, Eslint, Prettier, Webpack, Html5. This page documents all steps that are necessary to get this project up and running.
 
@@ -71,4 +70,4 @@ E.g: BDA-1001-some-awesome-feature (If you can reflect the task name as branch n
 * Buddha Man Nepali
 <info@bmnepali.com.np>
 
-##Cheers 🍻😎
+## Cheers 🍻😎
