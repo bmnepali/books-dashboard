@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu Component rendering testing matches snapshot 1`] = `
+<section>
+  <h3
+    className="sidebar-heading"
+  >
+    Menu
+  </h3>
+  <ul
+    className="nav flex-column"
+  >
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link active"
+        href="#"
+      >
+        <i
+          className="icon ion-md-bookmarks"
+        />
+        My Books 
+        <span
+          className="sr-only"
+        >
+          (current)
+        </span>
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="#"
+      >
+        <i
+          className="icon ion-md-heart-empty"
+        />
+        Favorite Books
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="#"
+      >
+        <i
+          className="icon ion-md-list"
+        />
+        My Categories
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="#"
+      >
+        <i
+          className="icon ion-md-chatboxes"
+        />
+        My Messages
+      </a>
+    </li>
+  </ul>
+</section>
+`;

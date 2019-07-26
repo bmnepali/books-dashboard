@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar Component rendering testing matches snapshot 1`] = `
+<aside
+  className="col-lg-2 col-sm-3 sidebar"
+>
+  <div
+    className="sidebar-sticky"
+  >
+    <BookList />
+    <Connect(BookTypes) />
+  </div>
+</aside>
+`;

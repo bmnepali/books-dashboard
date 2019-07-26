@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Books Reducer returns the initial state 1`] = `
+Object {
+  "books": Array [],
+  "category": "Hardcover Fiction",
+  "error": null,
+  "isLoading": false,
+}
+`;

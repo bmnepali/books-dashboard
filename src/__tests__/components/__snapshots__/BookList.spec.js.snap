@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookList Component when rendering the component matches the snapshot 1`] = `
+<div
+  className="no-books-container"
+>
+  <i
+    className="icon ion-md-sad"
+  />
+  No Books found!
+</div>
+`;

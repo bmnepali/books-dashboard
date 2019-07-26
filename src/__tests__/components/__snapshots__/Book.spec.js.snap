@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book Component when expected props are provided matches snapshot 1`] = `
+<Book
+  book={
+    Object {
+      "book_details": Array [
+        Object {
+          "age_group": "",
+          "author": "Daniel Silva",
+          "contributor": "by Daniel Silva",
+          "contributor_note": "",
+          "description": "Gabriel Allon, the chief of Israeli intelligence, partners with the crown prince of Saudi Arabia, whose daughter is kidnapped.",
+          "price": 0,
+          "primary_isbn10": "0062834835",
+          "primary_isbn13": "9780062834836",
+          "publisher": "Harper",
+          "title": "THE NEW GIRL",
+        },
+      ],
+    }
+  }
+>
+  <article
+    className="media book-card"
+  >
+    <object
+      data="https://s1.nyt.com/du/books/images/9780062834836.jpg"
+      type="image/jpeg"
+    >
+      <img
+        alt="THE NEW GIRL"
+        src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/387928/book%20placeholder.png"
+      />
+    </object>
+    <div
+      className="media-body"
+    >
+      <h5
+        className="mt-1"
+      >
+        THE NEW GIRL
+      </h5>
+      <p>
+        Gabriel Allon, the chief of Israeli intelligence, partners with the crown prince of Saudi Arabia, whose daughter is kidnapped.
+      </p>
+      <div
+        className="action-bar"
+      >
+        <a
+          className="btn btn-rounded btn-secondary"
+          href="#"
+        >
+          Read More
+        </a>
+        <span
+          className="share-book"
+        >
+          <i
+            className="icon ion-md-share"
+          />
+        </span>
+      </div>
+    </div>
+  </article>
+</Book>
+`;

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookTypes Component rendering testing matches snapshot 1`] = `
+<section>
+  <h3
+    className="sidebar-heading"
+  >
+    Book Types
+  </h3>
+  <ul
+    className="nav flex-column mb-2"
+  >
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="#"
+        onClick={[Function]}
+      >
+        Biography
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="#"
+        onClick={[Function]}
+      >
+        Kids
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="#"
+        onClick={[Function]}
+      >
+        Sports
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="#"
+        onClick={[Function]}
+      >
+        Fiction
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        href="#"
+        onClick={[Function]}
+      >
+        Drama
+      </a>
+    </li>
+  </ul>
+</section>
+`;
