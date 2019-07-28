@@ -6,6 +6,7 @@ import enzymeToJson from 'enzyme-to-json';
 Enzyme.configure({ adapter: new Adapter() });
 
 // Make Enzyme functions available in all test files without importing
+global.console.error = jest.fn();
 global.shallow = shallow;
 global.render = render;
 global.mount = mount;
