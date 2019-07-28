@@ -28,13 +28,21 @@ export function changeCategory(category) {
   };
 }
 
+/**
+ * Async Actions
+ */
 export function loadBooks(category) {
   store.dispatch(loadingBooks());
   BooksService.getBooks(category)
-    .then(response => {
-      store.dispatch(booksLoaded(response.data.results));
-    })
+    .then(
+      response => {
+        store.dispatch(booksLoaded(response.data.results));
+      },
+      error => {
+        store.dispatch(errorLoadingBooks(error));
+      },
+    )
     .catch(error => {
-      errorLoadingBooks(error);
+      store.dispatch(errorLoadingBooks(error));
     });
 }

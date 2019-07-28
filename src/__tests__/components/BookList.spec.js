@@ -1,5 +1,5 @@
 import * as React from 'react';
-import axios from 'axios';
+import axios from '../../utilities/api';
 import BookService from '../../services/Book.service';
 import BookList from '../../components/BookList';
 import { loadBooks } from '../../actions/BookActions';
@@ -71,7 +71,7 @@ describe('BookList Component', () => {
       const wrapper = shallow(<BookList {...props} />);
 
       wrapper.instance().forceUpdate();
-      expect(spyAxios).toHaveBeenCalledWith('https://api.nytimes.com/svc/books/v3/lists.json?list-name=fiction&api-key=6ad84e249d054efeaefe1abb8f89df5b');
+      expect(spyAxios).toHaveBeenCalledWith('lists.json?lis-name=fiction&api-key=6ad84e249d054efeaefe1abb8f89df5b');
     });
   });
 });

@@ -6,7 +6,7 @@ import Sidebar from '../components/Sidebar';
 import ContentHeader from '../containers/ContentHeader';
 import BookList from '../containers/Books';
 
-export default class Welcome extends Component {
+export default class Dashboard extends Component {
   constructor(props) {
     super(props);
   }
