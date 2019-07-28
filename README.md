@@ -5,7 +5,7 @@ A project created with love using React, Redux, SCSS, Bootstrap 4, Eslint, Prett
 ![img](https://travis-ci.org/bmnepali/books-dashboard.svg?branch=master)
 
 ## Project Screenshot
-![img](https://user-images.githubusercontent.com/6307362/62007707-64f8ef00-b170-11e9-9185-b562e4daba90.png)
+![img](https://user-images.githubusercontent.com/6307362/62010801-1444be80-b18f-11e9-8b93-526a5862723c.png)
 
 ## Guidlines for Developers
 ### Working On the Project
