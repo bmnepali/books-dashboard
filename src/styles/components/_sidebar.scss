@@ -46,7 +46,8 @@
         &:hover,
         &.active {
             color: $primary;
-            background: $secondary;
+            background: $light-gray;
+            text-shadow: 0 0 45px $purple-shadow;
 
             .icon {
                 color: $primary;
