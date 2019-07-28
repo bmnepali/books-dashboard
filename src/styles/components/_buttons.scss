@@ -38,6 +38,15 @@
     border-radius: 10px;
 }
 
+.dropdown-item {
+    &:focus,
+    &:active,
+    &:hover {
+        background-color: $secondary;
+    }
+}
+
+
 .dropdown-toggle::after {
     vertical-align: 0.15em;
 }
