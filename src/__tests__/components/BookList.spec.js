@@ -71,7 +71,7 @@ describe('BookList Component', () => {
       const wrapper = shallow(<BookList {...props} />);
 
       wrapper.instance().forceUpdate();
-      expect(spyAxios).toHaveBeenCalledWith('lists.json?lis-name=fiction&api-key=6ad84e249d054efeaefe1abb8f89df5b');
+      expect(spyAxios).toHaveBeenCalledWith('lists.json?list-name=fiction&api-key=6ad84e249d054efeaefe1abb8f89df5b');
     });
   });
 });
