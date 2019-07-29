@@ -58,7 +58,7 @@ Note: This will create a `dist` directory in the project root; the files in the 
 `npm run pretify`
 
 ##### Debuggung jest test cases in browser
-`test:debug`
+`npm run test:debug`
 
 ### Branch Structure (Git Workflow)
 #### master : 

@@ -3,7 +3,6 @@
  */
 
 .sidebar-sticky {
-    position: relative;
     top: 0;
     height: calc(100vh - 48px);
     padding-top: .5rem;
@@ -11,9 +10,8 @@
     overflow-y: auto;
 }
 
-@supports ((position: -webkit-sticky) or (position: sticky)) {
+@supports ((position: sticky)) {
     .sidebar-sticky {
-        position: -webkit-sticky;
         position: sticky;
     }
 }
@@ -48,6 +46,7 @@
             color: $primary;
             background: $light-gray;
             text-shadow: 0 0 45px $purple-shadow;
+            overflow: hidden;
 
             .icon {
                 color: $primary;
