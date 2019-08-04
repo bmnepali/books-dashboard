@@ -8,12 +8,3 @@ Object {
   "isLoading": false,
 }
 `;
-
-exports[`Books Reducer returns updated state on loading books 1`] = `
-Object {
-  "books": Array [],
-  "category": "Hardcover Fiction",
-  "error": null,
-  "isLoading": true,
-}
-`;
