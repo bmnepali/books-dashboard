@@ -60,7 +60,8 @@
     "test:coverage": "jest --coverage --colors",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix; exit 0",
-    "pretify": "prettier --write src/**/*.js"
+    "pretify": "prettier --write src/**/*.js",
+    "test:debug": "node --inspect-brk ./node_modules/.bin/jest --runInBand --watch"
   },
   "author": {
     "name": "Buddha Man Nepali"
