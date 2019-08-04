@@ -9,11 +9,10 @@
     "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.15.0",
-    "prop-types": "^15.6.1",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
-    "react-router-dom": "^4.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
     "redux": "^3.7.2"
   },
   "devDependencies": {
