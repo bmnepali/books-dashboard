@@ -2,6 +2,8 @@
 
 A project created with love using React, Redux, SCSS, Bootstrap 4, Eslint, Prettier, Webpack, Html5. This page documents all steps that are necessary to get this project up and running.
 
+![img](https://travis-ci.org/bmnepali/books-dashboard.svg?branch=master)
+
 ## Guidlines for Developers
 ### Working On the Project
 
@@ -51,6 +53,9 @@ Note: This will create a `dist` directory in the project root; the files in the 
 
 ##### Making code preetier :) by formatting
 `npm run pretify`
+
+##### Debuggung jest test cases in browser
+`test:debug`
 
 ### Branch Structure (Git Workflow)
 #### master : 
