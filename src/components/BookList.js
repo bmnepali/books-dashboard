@@ -27,6 +27,12 @@ class BookList extends Component {
           <div className="spinner" />
         </div>
       );
+    } else if (this.props.booksStore.error) {
+      view = (
+        <div className="alert alert-danger" role="alert">
+          <strong>Hey there!</strong> {this.props.booksStore.error}
+        </div>
+      );
     } else {
       if (!this.props.booksStore.isLoading && this.props.booksStore.books.length) {
         view = (
@@ -56,11 +62,7 @@ BookList.propTypes = {
   loadBooksFromApi: PropTypes.func.isRequired,
   booksStore: PropTypes.shape({
     isLoading: PropTypes.bool.isRequired,
-    books: PropTypes.arrayOf(
-      PropTypes.shape({
-        id: PropTypes.number,
-      }),
-    ).isRequired,
+    books: PropTypes.arrayOf(PropTypes.object).isRequired,
     error: PropTypes.string,
     category: PropTypes.string.isRequired,
   }).isRequired,
